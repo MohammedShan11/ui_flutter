@@ -1,11 +1,31 @@
 import 'package:flutter/material.dart';
 
-const head1=TextStyle(
-  fontWeight: FontWeight.bold,
-  color:Color(0xff003a46),
-  fontSize: 20
+import 'color.dart';
+
+const text1=TextStyle(fontSize: 25,
+    fontWeight: FontWeight.bold,
+    color: whitecolor
 );
-const cont=TextStyle(
-  color:Color(0xff424546),
-    fontSize: 20
+const text2=TextStyle(
+  fontSize: 15,
+    color:goldcolor,
+    fontWeight: FontWeight.bold );
+const text3=TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+    color: blackcolor
+);
+const text4=TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+    color: whitecolor
+);
+const text5=TextStyle(
+    fontSize: 20,
+    color: blackcolor,
+    fontWeight: FontWeight.bold
+);const moodText=TextStyle(
+    color: whitecolor,
+    fontSize: 17,
+    fontWeight: FontWeight.w600
 );
